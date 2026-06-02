@@ -1,0 +1,10 @@
+/storage/*
+!/storage/.gitignore
+!/storage/private/
+!/storage/private/.gitignore
+!/storage/uploads/
+!/storage/uploads/.gitignore
+
+/public/uploads/*
+!/public/uploads/.gitignore
+!/public/uploads/.htaccess

@@ -1,0 +1,13 @@
+Options -Indexes
+
+<IfModule mod_php.c>
+php_flag engine off
+</IfModule>
+
+<FilesMatch "\.(php|phtml|phar|php\d+|cgi|pl|py|sh|exe|dll|asp|aspx|jsp)$">
+Require all denied
+</FilesMatch>
+
+<FilesMatch "\.(json|log|sql|ini|env)$">
+Require all denied
+</FilesMatch>
